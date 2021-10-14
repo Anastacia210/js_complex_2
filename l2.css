@@ -1,0 +1,28 @@
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+img {
+    width: 500px;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+.logo {
+    width: 800px;
+    height: 300px;
+
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+.bruce {
+    background: red;
+}
+.band {
+    background: firebrick;
+}
+.fav {
+    background: tomato;
+}
