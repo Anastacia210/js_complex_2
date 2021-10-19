@@ -1,0 +1,57 @@
+body {
+    background: darkred;
+    padding: 10px;
+
+}
+h1, h2, h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+ul {
+    color: antiquewhite;
+    font-size: 20px;
+}
+img {
+    width: 400px;
+    align-items: center;
+    margin: 0 auto;
+    display: block;
+}
+.photo {
+    display: flex;
+    border-radius: 10%;
+    column-gap: 20px;
+}
+.top {
+    display: flex;
+    column-gap: 20px;
+}
+.logo {
+    width: 800px;
+    height: 300px;
+}
+p {
+    text-align: justify;
+    font-size: 20px;
+    color: antiquewhite;
+}
+.bruce {
+    background: red;
+}
+.band {
+    background: firebrick;
+}
+.bMemb {
+    display: flex;
+    column-gap: 100px;
+}
+.fav {
+    background: tomato;
+}
+.music {
+    display: flex;
+    justify-content: space-evenly;
+}
+.text {
+    color: antiquewhite;
+}
