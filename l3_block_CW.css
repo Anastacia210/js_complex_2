@@ -1,0 +1,107 @@
+/*_________________________3_________________________*/
+.all {
+    width: 410px;
+    border: 2px solid gray;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.boxA {
+    height: 100px;
+    width: 402px;
+    background: lavender;
+    margin-bottom: 2px;
+}
+.fiveBoxes {
+    display: flex;
+}
+.cde {
+    display: flex;
+    margin-top: 2px;
+}
+.cBox,.dBox,.eBox {
+    width: 100px;
+    height: 100px;
+    background: lavender;
+    margin-right: 2px;
+}
+.boxB {
+    width: 305px;
+    height: 100px;
+    background: lavender;
+    margin-right: 2px;
+}
+.boxF {
+    width: 100px;
+    height: 202px;
+    background: lavender;
+}
+/*_________________________________4_____________________________*/
+.all2 {
+    width: 410px;
+    border: 2px solid gray;
+    padding: 2px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.aBox {
+    height: 100px;
+    width: 402px;
+    background: lavender;
+    margin-bottom: 2px;
+}
+.sevenBoxes {
+    display: flex;
+}
+.mini1,.mini2 {
+    display: flex;
+}
+.mini1 {
+    margin-bottom: 2px;
+}
+.hBox {
+    width: 100px;
+    height: 202px;
+    background: lavender;
+}
+.miniB,.miniC,.miniD,.miniE,.miniF,.miniG {
+    width: 100px;
+    height: 100px;
+    background: lavender;
+    margin-right: 2px;
+}
+/*_____________________________________6___________________________*/
+.all3 {
+    width: 500px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+}
+.h_a,.kabobs {
+    display: flex;
+    column-gap: 30px;
+}
+.home,.about {
+    width: 250px;
+    height: 300px;
+    background: blue;
+}
+.kab {
+    width: 500px;
+    height: 200px;
+    background: cornflowerblue;
+    margin-top: 20px;
+}
+.kabobs {
+    display: flex;
+    column-gap: 15px;
+}
+.shKab,.bbq,.sumKab {
+    background: darkblue;
+    width: 170px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+
