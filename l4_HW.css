@@ -119,7 +119,7 @@
     width: 120px;
     height: 150px;
     background: darkblue;
-    line-height: 150px;
+    line-height: 120px;
 }
 .box5 {
     height: 300px;
@@ -139,6 +139,3 @@ p {
 .w400 {
     width: 400px;
 }
-
-
-
