@@ -2,22 +2,15 @@
     background: gray;
     width: 497px;
     height: 100px;
-    margin: 1px;
-    text-align: center;
+    line-height: 100px;
 }
 .b {
     background: silver;
     width: 300px;
-    height: 200px;
-    margin: 1px;
-    text-align: center;
 }
 .c {
     background: indigo;
     width: 195px;
-    height: 200px;
-    margin: 1px;
-    text-align: center;
 }
 .bc {
     display: flex;
@@ -26,6 +19,15 @@
 .abc {
     border: 3px solid darkgray;
     width: 500px;
+    color: white;
+    text-align: center;
+}
+.mar1 {
+    margin: 1px;
+}
+.hlh200 {
+    line-height: 200px;
+    height: 200px;
 }
 /*-______________________________________________2______________________________________________________*/
 .wrapper {
@@ -39,15 +41,12 @@
     height: 200px;
 }
 .header {
-    height: 50px;
     background: blue;
 }
 .nav {
-    height: 50px;
     background: darkblue;
 }
 .footer {
-    height: 50px;
     background: cornflowerblue;
 }
 .main {
@@ -57,6 +56,13 @@
 .aside {
     width: 100px;
     background: cadetblue;
+}
+.hlh50 {
+    height: 50px;
+    line-height: 50px;
+}
+.lh200 {
+    line-height: 200px;
 }
 /*----------------------------------------------------------2-1----------------------------------------------*/
 .wrap {
@@ -68,68 +74,39 @@
     text-align: center;
 }
 .h {
-    height: 100px;
     background: greenyellow;
-    border: darkgray solid 1px;
-    margin: 3px;
 }
 .f {
-    height: 100px;
     background: burlywood;
-    border: darkgray solid 1px;
-    margin: 3px;
 }
 .b1 {
     height: 308px;
+    line-height: 308px;
     width: 100px;
     background: violet;
-    border: darkgray solid 1px;
-    margin: 3px;
 }
-.two-b{
+.two_b{
     display: flex;
     flex-direction: column;
 }
-.b2 {
-    width: 400px;
-    height: 150px;
-    border: darkgray solid 1px;
-    margin: 3px;
-    background: aqua;
-}
-.b3{
-    width: 400px;
-    height: 150px;
-    border: darkgray solid 1px;
-    margin: 3px;
+.aqua {
     background: aqua;
 }
 .boxes{
     display: flex;
 }
-/*-------------------------------------2-2---------------------------------------*/
-.box1 {
+.w400 {
     width: 400px;
+}
+.hlh100 {
+    line-height: 100px;
+    height: 100px;
+}
+.hlh150 {
+    line-height: 150px;
     height: 150px;
-    background: blue;
 }
-.box2,.box3,.box4 {
-    width: 120px;
-    height: 150px;
-    background: darkblue;
-}
-.box5 {
-    width: 400px;
-    height: 300px;
-    background: blue;
-}
-p {
-    text-align: center;
-    font-size: 18px;
-    color: beige;
-}
-.onetwothree {
-    display: flex;
-    column-gap: 20px;
-    margin-top: 10px;
+.border_m {
+    border: darkgray solid 1px;
+    margin: 3px;
 }
