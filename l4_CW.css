@@ -1,0 +1,44 @@
+/*_______________________________cw4-1___________________________________*/
+.wrap {
+    width: 700px;
+    height: 600px;
+}
+.whb-s {
+    width: 700px;
+    height: 300px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.box1 {
+    background: silver;
+    padding: 20px;
+}
+.box2 {
+    background: darkslategrey;
+    padding: 30px;
+}
+.fourBox,.threeBox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.threeBox {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.wh100 {
+    width: 100px;
+    height: 100px;
+}
+.square {
+    background: darkslategrey;
+    border-radius: 10px;
+}
+.round {
+    background: silver;
+    border-radius: 50%;
+}
+.footer {
+    width: 700px;
+    height: 30px;
+    background: silver;
+}
