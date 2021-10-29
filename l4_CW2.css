@@ -1,0 +1,280 @@
+body {
+    margin: 0;
+}
+
+.father {
+    width: 600px;
+}
+
+.header1 {
+    height: 30px;
+    background: aqua;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 7px;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.header2 {
+    height: 70px;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 200px;
+}
+
+.top {
+    box-sizing: border-box;
+    height: 250px;
+    background: aqua;
+    padding-top: 20px;
+}
+
+.line {
+    width: 30px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.button1 {
+    width: 80px;
+    height: 30px;
+    background: darkslateblue;
+    border-radius: 10px;
+}
+
+.line2 {
+    width: 50px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.rItem {
+    display: flex;
+    column-gap: 10px;
+}
+
+.text {
+    text-align: center;
+    padding: 10px;
+    color: darkslateblue;
+}
+
+.button2 {
+    width: 80px;
+    height: 20px;
+    background: darkslateblue;
+    border-radius: 10px;
+    margin-left: 250px;
+}
+
+/*__________________________________________________________________________________________________*/
+.gray {
+    width: 600px;
+    height: 200px;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dark {
+    width: 600px;
+    height: 200px;
+    background: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockLine1 {
+    width: 500px;
+    height: 150px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.blockLine2 {
+    width: 130px;
+    height: 150px;
+    border: 1px solid aqua;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: darkslateblue;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.ball {
+    width: 60px;
+    height: 60px;
+    background: lightgray;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.wrap2 {
+    display: flex;
+    column-gap: 20px;
+    text-align: center;
+}
+
+/*______________________________________________________________________________________*/
+.bigGray {
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: lightgray;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-left: 30px;
+    row-gap: 20px;
+}
+
+.screen {
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    background: darkslateblue;
+
+}
+
+.wrap3 {
+    width: 160px;
+    height: 200px;
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+
+.firstLine {
+    display: flex;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+.text_line1 {
+    display: flex;
+    margin-left: 80px;
+    column-gap: 7px;
+}
+
+.line_mini2 {
+    width: 10px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.secondLine {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 5px;
+    column-gap: 5px;
+}
+
+.text_line2-1 {
+    width: 30px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.text_line2-2 {
+    width: 50px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.thirdLine {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    column-gap: 5px;
+}
+
+.text_line3-1 {
+    width: 40px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.text_line3-2 {
+    width: 20px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.fourthLine {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 10px;
+    column-gap: 5px;
+}
+
+.text_line4-1 {
+    width: 100px;
+    height: 4px;
+    background: darkslateblue;
+}
+
+.text_line4-2 {
+    width: 20px;
+    height: 4px;
+    background: darkslateblue;
+}
+.line_footer {
+    width: 155px;
+    height: 20px;
+    border-top: 1px solid aqua;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+}
+.mini_btn {
+    width: 30px;
+    height: 12px;
+    background: darkslateblue;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+.mini_roundBox {
+    display: flex;
+    column-gap: 3px;
+    margin-left: 70px;
+    margin-right: 5px;
+}
+.mini__round {
+    width: 12px;
+    height: 12px;
+    background: darkslateblue;
+    border-radius: 50%;
+}
+/*____________________________________________________________________________________________*/
+.left {
+
+}
+.right {
+
+}
